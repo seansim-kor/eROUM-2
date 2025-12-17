@@ -47,9 +47,9 @@ const WhyChooseUs: React.FC = () => {
             <div className="mx-auto w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-eroum-sage transition-colors duration-500">
               <Globe2 size={36} className="text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-4">Bridging Cultures</h3>
+            <h3 className="text-xl font-bold mb-4">Navigating ASEAN Ecosystems</h3>
             <p className="text-white/60 leading-relaxed">
-              More than translation. We interpret business nuances between Korea and Malaysia, preventing misunderstandings and accelerating deal closure.
+              We bridge the gap between Korean vision and ASEAN reality. Our expertise in business development and local law ensures your venture adapts seamlessly to the local culture and market landscape.
             </p>
           </div>
 

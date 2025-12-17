@@ -5,15 +5,21 @@ import { ArrowDownRight } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <div className="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden bg-eroum-cream">
-      {/* Background Image - Palm Trees/Plantation */}
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1596020560737-124b61836c1e?q=80&w=2070&auto=format&fit=crop" 
-          alt="Palm trees plantation"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover opacity-100"
-        />
-        {/* Overlay - Gradient from solid cream to transparent to ensure text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-eroum-cream via-eroum-cream/80 to-transparent" />
+        >
+          <source src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/image/EF_Asia_MV1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        
+        {/* Overlay - Gradient from almost solid cream to transparent to ensure text readability while keeping video visible */}
+        <div className="absolute inset-0 bg-gradient-to-r from-eroum-cream/95 via-eroum-cream/70 to-eroum-cream/10" />
       </div>
 
       <div className="max-w-7xl mx-auto px-6 w-full z-10 relative">

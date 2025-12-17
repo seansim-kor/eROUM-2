@@ -20,11 +20,6 @@ const Footer: React.FC = () => {
             <p className="text-eroum-dark/60 max-w-sm mb-6 leading-relaxed">
               Your trusted partner in renewable energy resources and ASEAN market expansion. Delivering goodness through sustainable trade.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="p-2 bg-gray-50 rounded-full text-gray-600 hover:bg-eroum-sage hover:text-white transition-colors">
-                <Linkedin size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -47,9 +42,27 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3 text-eroum-dark/60">
                 <Mail size={20} className="shrink-0 text-eroum-sage" />
-                <a href="mailto:info@eroum-global.com" className="hover:text-eroum-sage">info@eroum-global.com</a>
+                <a href="mailto:seansim.kor@gmail.com" className="hover:text-eroum-sage">seansim.kor@gmail.com</a>
+              </li>
+              <li className="flex items-center gap-3 text-eroum-dark/60">
+                <Phone size={20} className="shrink-0 text-eroum-sage" />
+                <a href="https://wa.me/60172018149" target="_blank" rel="noopener noreferrer" className="hover:text-eroum-sage">
+                  +60 17 201 8149 (WhatsApp)
+                </a>
               </li>
             </ul>
+            
+            {/* LinkedIn Icon moved here */}
+            <div className="mt-6">
+              <a 
+                href="https://www.linkedin.com/in/sean-yssim/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex p-2 bg-gray-50 rounded-full text-gray-600 hover:bg-eroum-sage hover:text-white transition-colors"
+              >
+                <Linkedin size={20} />
+              </a>
+            </div>
           </div>
         </div>
 

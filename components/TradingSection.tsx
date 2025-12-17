@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Factory, Droplet, Truck, TrendingDown, CheckCircle2 } from 'lucide-react';
+import { Factory, Truck, TrendingDown, CheckCircle2 } from 'lucide-react';
 
 const FeatureItem: React.FC<{ icon: React.ReactNode; title: string; desc: string; delay: number }> = ({ icon, title, desc, delay }) => (
   <motion.div
@@ -62,7 +62,7 @@ const TradingSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Visual Side - Abstract Representation of Liquid/Oil */}
+          {/* Visual Side - Palm Tree Image */}
           <div className="relative">
              <motion.div 
                initial={{ opacity: 0, scale: 0.95 }}
@@ -72,27 +72,11 @@ const TradingSection: React.FC = () => {
                className="relative z-10 rounded-2xl overflow-hidden shadow-2xl"
              >
                 <img 
-                  src="https://picsum.photos/id/195/800/600" 
-                  alt="Oil Refinement" 
-                  className="w-full h-auto object-cover opacity-90"
+                  src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/image/palm-trees.png" 
+                  alt="Palm Oil Plantation" 
+                  className="w-full h-auto object-cover opacity-100"
                 />
-                <div className="absolute inset-0 bg-eroum-sage/20 mix-blend-overlay"></div>
-                
-                {/* Metric Card */}
-                <div className="absolute bottom-6 right-6 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg border border-eroum-sage/10">
-                  <div className="flex items-center gap-4 mb-3">
-                    <div className="bg-eroum-sage/10 p-2 rounded-full">
-                      <Droplet className="text-eroum-sage" size={20}/>
-                    </div>
-                    <div>
-                      <p className="text-xs text-gray-500 uppercase font-bold">Monthly Capacity</p>
-                      <p className="text-xl font-bold text-eroum-dark">3,000+ MT</p>
-                    </div>
-                  </div>
-                  <div className="w-full bg-gray-100 h-1.5 rounded-full overflow-hidden">
-                    <div className="bg-eroum-sage h-full w-[85%]"></div>
-                  </div>
-                </div>
+                <div className="absolute inset-0 bg-eroum-sage/10 mix-blend-overlay"></div>
              </motion.div>
 
              {/* Background Blob */}
