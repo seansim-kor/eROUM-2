@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Sprout, HeartHandshake } from 'lucide-react';
+import palmTreesImage from './palm-trees.png';
 
 const BrandStory: React.FC = () => {
   return (
@@ -8,8 +9,7 @@ const BrandStory: React.FC = () => {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/components/palm-trees.png          alt="Brand Background" 
-          className="w-full h-full object-cover"
+{palmTreesImage}          className="w-full h-full object-cover"
         />
         {/* Strong white overlay to ensure the dark text remains legible over the background image */}
         <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
