@@ -7,8 +7,11 @@ const BrandStory: React.FC = () => {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-src="/handwriting.jpeg"        className="w-full h-full object-cover object-center" />      
-        
+          src="https://lh3.googleusercontent.com/d/14IvRxhNBLhAeYc6uJ2qVFgtIx4G6eaPz" 
+          alt="Brand Background" 
+          className="w-full h-full object-cover"
+        />
+        {/* Strong white overlay to ensure the dark text remains legible over the background image */}
         <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
       </div>
       
