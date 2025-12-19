@@ -4,7 +4,7 @@ import { ArrowDownRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden bg-eroum-cream">
+    <div className="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden ">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
       <div className="w-full h-full bg-gradient-to-b from-teal-800 via-green-600 to-lime-500"></div>
