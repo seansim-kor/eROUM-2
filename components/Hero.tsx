@@ -7,10 +7,10 @@ const Hero: React.FC = () => {
     <div className="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden ">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
-      <div className="w-full h-full bg-gradient-to-b from-teal-800 via-green-600 to-lime-500"></div>
-        
-        {/* Overlay - Gradient from almost solid cream to transparent to ensure text readability while keeping video visible */}
-      </div>
+      <video className="absolute inset-0 w-full h-full object-cover" autoPlay muted loop>
+        <source src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/components/EF_Asia_MV1.mp4" type="video/mp4" />
+      </video>        
+        <div className="absolute inset-0 bg-gradient-to-b from-eroum-cream to-transparent"></div>      </div>
 
       <div className="max-w-7xl mx-auto px-6 w-full z-10 relative">
         <div className="max-w-3xl">
