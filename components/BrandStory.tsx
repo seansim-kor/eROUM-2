@@ -7,8 +7,7 @@ const BrandStory: React.FC = () => {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-src="/palm-trees.png"
-          alt="Background palm trees"
+src="./palm-trees.png"          alt="Background palm trees"
           
           />
         <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
