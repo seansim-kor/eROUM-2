@@ -72,7 +72,7 @@ const TradingSection: React.FC = () => {
                className="relative z-10 rounded-2xl overflow-hidden shadow-2xl"
              >
                 <img 
-                  src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/image/palm-trees.png" 
+                  src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/blob/main/components/palm-trees.png" 
                   alt="Palm Oil Plantation" 
                   className="w-full h-auto object-cover opacity-100"
                 />
