@@ -9,7 +9,7 @@ const BrandStory: React.FC = () => {
         <img 
 src="/palm-trees.png"
           alt="Background palm trees"
-          {/* Strong white overlay to ensure the dark text remains legible over the background image */}
+          
           />
         <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
       </div>
