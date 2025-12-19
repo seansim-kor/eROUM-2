@@ -10,6 +10,9 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
                 allowedHosts: ['eroum.onrender.com', 'localhost'],
       },
+            preview: {
+      allowHosts: ['eroum.onrender.com'],
+    },
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
