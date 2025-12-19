@@ -10,8 +10,7 @@ const Hero: React.FC = () => {
       <video className="absolute inset-0 w-full h-full object-cover" autoPlay muted loop>
         <source src="https://raw.githubusercontent.com/seansim-kor/eROUM-2/main/components/EF_Asia_MV1.mp4" type="video/mp4" />
       </video>        
-        {/* Overlay - Gradient from almost solid cream to transparent to ensure text readability while keeping video visible */}
-      </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-eroum-cream to-transparent"></div>      </div>
 
       <div className="max-w-7xl mx-auto px-6 w-full z-10 relative">
         <div className="max-w-3xl">
