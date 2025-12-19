@@ -1,16 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Sprout, HeartHandshake } from 'lucide-react';
-import palmTreesImage from './palm-trees.png';
-
 const BrandStory: React.FC = () => {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-{palmTreesImage}          className="w-full h-full object-cover"
-        />
+/palm-trees.png        />
         {/* Strong white overlay to ensure the dark text remains legible over the background image */}
         <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
       </div>
